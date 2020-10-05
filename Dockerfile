@@ -1,4 +1,4 @@
-FROM ruby:2.6.5
+FROM ruby:2.7.2
 WORKDIR /usr/app/mailcatcher/
 ADD Gemfile Gemfile.lock /usr/app/mailcatcher/
 RUN bundle install --system
